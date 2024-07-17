@@ -623,7 +623,7 @@ ol {
 
 .hero__text h2:hover{
 	color: #02353E;
-	text-shadow: 2px 2px 12px #d66494;
+	text-shadow: 1px 1px 2px #d66494;
 }
 
 .hero__text p {
