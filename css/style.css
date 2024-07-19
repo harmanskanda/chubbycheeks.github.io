@@ -938,6 +938,8 @@ ol {
 
 .instagram__text h3 {
 	color: #e53637;
+	font-family: Kaushan Script;
+	letter-spacing: 1px;
 	font-weight: 700;
 }
 
@@ -2019,6 +2021,8 @@ ol {
 .footer__widget ul li {
 	line-height: 36px;
 	list-style: none;
+	color: #b7b7b7;
+	font-size: 15px;
 }
 
 .footer__widget ul li a {
@@ -2037,7 +2041,7 @@ ol {
 .footer__widget .footer__newslatter form input {
 	width: 100%;
 	font-size: 15px;
-	color: #3d3d3d;
+	color: #ffffff;
 	background: transparent;
 	border: none;
 	padding: 15px 0;
@@ -2163,6 +2167,16 @@ ol {
 	padding-bottom: 70px;
 }
 
+.section-title p{
+    font-size: 20px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #000000;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0 0 15px 0;
+    text-align: center;
+}
+
 .about__pic {
 	margin-bottom: 35px;
 }
@@ -2185,22 +2199,47 @@ ol {
 	margin-bottom: 0;
 }
 
+.about___text {
+	text-align: center;
+	padding: 15px 40px 15px;
+}
+
+.about___text h1 {
+	color: #111111;
+	font-weight: bold;
+	font-size: 23px;
+	font-style: italic;
+	line-height: 30px;
+	margin-bottom: 25px;
+}
+
+.about___text p {
+	color: #111111;
+	font-size: 20px;
+	font-style: italic;
+	line-height: 30px;
+	padding-top: 12px;
+	margin-bottom: 25px;
+}
+
 /*---------------------
   Testimonial
 -----------------------*/
 
 .testimonial {
-	background: #f3f2ee;
+	background: white;
+	padding: 40px 15px;
 }
 
 .testimonial__text {
 	text-align: center;
-	padding: 130px 150px 175px;
+	padding: 55px 40px 50px;
 }
 
 .testimonial__text span {
-	color: #e53637;
-	font-size: 72px;
+	font-family: kaushan script;
+	letter-spacing: 1px;
+	text-decoration: bold;
 }
 
 .testimonial__text p {
@@ -2222,9 +2261,9 @@ ol {
 }
 
 .testimonial__author__pic img {
-	height: 60px;
-	width: 60px;
-	border-radius: 50%;
+	height: 66px;
+	width: 70px;
+	border-radius: 25%;
 }
 
 .testimonial__author__text {
@@ -2234,6 +2273,7 @@ ol {
 
 .testimonial__author__text h5 {
 	color: #111111;
+	font-size: 22px;
 	font-weight: 700;
 	margin-bottom: 5px;
 }
@@ -2246,7 +2286,17 @@ ol {
 
 .testimonial__pic {
 	height: 600px;
+	border-radius: 100px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
 }
+.set-bg {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
 
 /*---------------------
   Counter
@@ -3431,7 +3481,7 @@ ol {
 		right: 2px;
 	}
 	.testimonial__text {
-		padding: 130px 45px 175px;
+		padding: 25px 45px 15px;
 	}
 }
 
@@ -3482,7 +3532,7 @@ ol {
 		margin-top: 40px;
 	}
 	.testimonial__text {
-		padding: 100px 105px 100px;
+		padding: 5px 105px 45px;
 	}
 	.blog__details__share {
 		position: relative;
@@ -3763,7 +3813,7 @@ ol {
 		margin-bottom: 40px;
 	}
 	.testimonial__text {
-		padding: 100px 40px 100px;
+		padding: 20px 40px 70px;
 	}
 	.product__details__breadcrumb {
 		text-align: left;
@@ -3864,7 +3914,7 @@ ol {
 		width: 100%;
 	}
 	.testimonial__text {
-		padding: 60px 40px 60px;
+		padding: 30px 40px 60px;
 	}
 	.product__details__pic .nav-tabs .nav-item .nav-link .product__thumb__pic {
 		width: 100%;
