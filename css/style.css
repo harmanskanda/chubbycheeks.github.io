@@ -3455,6 +3455,18 @@ ol {
 .contact__form button {
 	letter-spacing: 4px;
 	padding: 14px 35px;
+	border: 1px solid floralwhite;
+	box-shadow: 1px 1px 8px floralwhite;
+	border-radius: 40px;
+	color: floralwhite;
+	background-color: black;
+}
+
+.contact__form button:hover{
+	color: black;
+	background-color: floralwhite;
+	border: 1px solid black;
+	box-shadow: 1px 1px 8px black;
 }
 
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
