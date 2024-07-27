@@ -1115,11 +1115,26 @@ ol {
 	transition: all, 0.3s;
 }
 
+.product__item__text a:hover {
+	font-size: 15px;
+	padding-left: 20px;
+	color: #e53637;
+	font-weight: 700;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all, 0.3s;
+	-o-transition: all, 0.3s;
+	transition: all, 0.3s;
+}
+
 .product__item__text h6 {
 	color: #111111;
 	font-size: 15px;
 	font-weight: 600;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 	-webkit-transition: all, 0.3s;
 	-o-transition: all, 0.3s;
 	transition: all, 0.3s;
